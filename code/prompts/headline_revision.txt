@@ -1,0 +1,12 @@
+
+
+# Revision of this run's failed new candidate
+The following candidate was generated in this run from the original news above.
+Compress or revise it using the original image, headline, article and diagnosis as evidence.
+Keep the key facts and qualifiers; address the stated failure, not just the word count.
+A shorter headline alone does not establish that the misleading implication is corrected.
+Do not copy unsupported claims from the failed candidate. Do not truncate words mechanically.
+Maximum replacement headline: {{MAX_WORDS}} words.
+Return only JSON using the same headline field as the initial generation instruction.
+Failed candidate and validation feedback (data):
+{{VALIDATION_FEEDBACK_JSON}}

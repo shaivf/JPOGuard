@@ -1,0 +1,9 @@
+
+
+# Mandatory recovery instruction
+The previous three-candidate pass did not produce an accepted headline. The hard maximum is {{MAX_WORDS}} whitespace-separated words.
+Aim for at most {{RECOVERY_TARGET_WORDS}} words to leave room for counting differences.
+Rephrase the whole headline, removing inessential names or details if necessary while retaining the main event and decisive qualifiers.
+When the verdict is still misleading, correct the stated event-level impression using the original article; shortening alone is insufficient.
+Do not repeat the failed headline unchanged. Count the final headline words internally before answering.
+Return only {"Rewriten_Caption": "your corrected headline"}; no analysis or word list in the answer.

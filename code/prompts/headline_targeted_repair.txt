@@ -1,0 +1,9 @@
+
+
+# Final targeted repair of the image-event relationship
+Repeated verdicts may concern a false linkage between the pictured person/scene and the article, rather than headline length.
+Use the ORIGINAL headline as evidence about who or what the photograph depicts, and the ORIGINAL article for the actual news event.
+Explicitly distinguish the pictured person from the claimant or central news actor, or distinguish a pictured debate from separate upcoming debate preparations, where supported by those inputs.
+A short photo qualifier such as "pictured" can clarify the relationship without describing the image as the news event itself.
+Do not invent a stock-photo status, photograph date or location. Preserve the true main event and its status.
+The final title MUST remain within {{MAX_WORDS}} whitespace-separated words. Return only the headline JSON.

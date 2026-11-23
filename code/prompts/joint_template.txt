@@ -1,0 +1,34 @@
+# Task Description
+You will receive an image, a news headline, a full news context, a reader's surface interpretation
+and event implication for the image-headline pair, a reader's surface interpretation and event
+implication for the full news context.
+
+Complete BOTH parts:
+
+**Part 1 — Misleading judgment**
+- If a reader forms an impression about the nature, status, cause and effect, the responsible party,
+  or severity of a news event when only exposed to the image and headline, and this impression is
+  significantly corrected, restricted, or overturned after reading the full news, it is misleading.
+- If the full news only elaborates, extends, or supplements the headline's implication without
+  altering the reader's basic understanding, it is non-misleading.
+
+**Part 2 — Headline correction (only if misleading)**
+- If and only if the pair is misleading, rewrite the headline so that it no longer induces a
+  misleading impression while remaining faithful to the full news context.
+- The rewritten headline must be factually accurate and neutral in tone.
+- The generated news headline may contain at most 3 more words than the original headline.
+- Original headline word count: {{ORIGINAL_WORDS}}. Maximum rewritten headline word count: {{MAX_WORDS}}.
+
+# Input
+News Headline: {{NEWS_HEADLINE}}
+
+Full News Context: {{CONTEXT}}
+
+Reader Interpretations: {{READER_INFER}}
+
+# Output (JSON only)
+{
+    "Misleading": "Yes/No",
+    "Reason": "Not less than 100 words, focus on the event level.",
+    "Rewritten_Headline": "the corrected headline if Misleading=Yes, otherwise an empty string"
+}
